@@ -1,0 +1,57 @@
+<!DOCTYPE web-app PUBLIC
+ "-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN"
+ "http://java.sun.com/dtd/web-app_2_3.dtd" >
+
+<web-app>
+  <display-name>Archetype Created Web Application</display-name>
+  <servlet>
+  	<servlet-name>Hello</servlet-name>
+  	<display-name>Hello</display-name>
+  	<description></description>
+  	<servlet-class>Hello</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>Weather</servlet-name>
+  	<display-name>Weather</display-name>
+  	<description></description>
+  	<servlet-class>Weather</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>weatherController</servlet-name>
+  	<display-name>weatherController</display-name>
+  	<description></description>
+  	<servlet-class>controller.weatherController</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>forecastController</servlet-name>
+  	<display-name>forecastController</display-name>
+  	<description></description>
+  	<servlet-class>controller.forecastController</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>forecastCon</servlet-name>
+  	<display-name>forecastCon</display-name>
+  	<description></description>
+  	<servlet-class>controller.forecastCon</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>Hello</servlet-name>
+  	<url-pattern>/Hello</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>Weather</servlet-name>
+  	<url-pattern>/Weather</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>weatherController</servlet-name>
+  	<url-pattern>/weatherController</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>forecastController</servlet-name>
+  	<url-pattern>/forecastController</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>forecastCon</servlet-name>
+  	<url-pattern>/forecastCon</url-pattern>
+  </servlet-mapping>
+</web-app>
